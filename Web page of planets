@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        .planet {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 10px;
+            background-color: #fff;
+        }
+        .planet img {
+            width: 100%;
+            max-width: 200px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        .planet h2 {
+            margin-top: 0;
+        }
+        .planet p {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Solar System</h1>
+    <div class="planet">
+        <img src="https://images.unsplash.com/photo-1614642264762-d0a3b8bf3700?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dGhlJTIwc3VufGVufDB8fDB8fHww" alt="Sun">
+        <h2>Sun</h2>
+        <p>Type: Star</p>
+        <p>Composition: Mostly hydrogen and helium</p>
+        <p>Radius: 695,700 km</p>
+    </div>
+    <div class="planet">
+        <img src="https://starlust.org/wp-content/uploads/elementor/thumbs/planet-mercury-q8v6sem2i1a4gmnc33bkd47qc9iav47i5rjv1uwhsg.webp" alt="Mercury">
+        <h2>Mercury</h2>
+        <p>Type: Rocky</p>
+        <p>Distance from Sun: 0.39 AU</p>
+        <p>Orbit Days: 88</p>
+    </div>
+    <div class="planet">
+        <img src="https://media.assettype.com/freepressjournal/2023-08/acc5a194-1094-46bf-85da-1747df6d8758/new_anchor_venus.jpg" alt="Venus">
+        <h2>Venus</h2>
+        <p>Type: Rocky</p>
+        <p>Distance from Sun: 0.72 AU</p>
+        <p>Orbit Days: 225</p>
+    </div>
+    <div class="planet">
+        <img src="https://wallpapercave.com/wp/wp4406727.jpg" alt="Earth">
+        <h2>Earth</h2>
+        <p>Type: Rocky</p>
+        <p>Distance from Sun: 1 AU</p>
+        <p>Orbit Days: 365</p>
+    </div>
+    <div class="planet">
+        <img src="https://images.hindustantimes.com/tech/img/2023/08/14/960x540/mars-5564141_960_720_1679408567723_1691989026487.jpg" alt="Mars">
+        <h2>Mars</h2>
+        <p>Type: Rocky</p>
+        <p>Distance from Sun: 1.52 AU</p>
+        <p>Orbit Days: 687</p>
+    </div>
+    <div class="planet">
+        <img src="https://toronto.citynews.ca/wp-content/blogs.dir/sites/10/2023/03/awyeqyydhve-1024x585.jpg" alt="Jupiter">
+        <h2>Jupiter</h2>
+        <p>Type: Gaseous Gaint</p>
+        <p>Distance from Sun: 5.2 AU</p>
+        <p>Orbit Days: 4333</p>
+    </div>
+    <div class="planet">
+        <img src="https://as2.ftcdn.net/v2/jpg/05/59/56/99/1000_F_559569902_oODnJ9plxK56Z9YqUnl8pcPjmNNRYSHo.jpg" alt="Saturn">
+        <h2>Saturn</h2>
+        <p>Type: Gaseous Gaint</p>
+        <p>Distance from Sun: 9.58 AU</p>
+        <p>Orbit Days: 10759</p>
+    </div>
+    <div class="planet">
+        <img src="https://media.istockphoto.com/id/1365125789/photo/planet-uranus.jpg?s=612x612&w=0&k=20&c=8XdhHnxC4cklG4juPniQUJukEz-SiSosxSSdnECi21A=" alt="Uranus">
+        <h2>Uranus</h2>
+        <p>Type: Ice Gaint</p>
+        <p>Distance from Sun: 19.22 AU</p>
+        <p>Orbit Days: 30687</p>
+    </div>
+    <div class="planet">
+        <img src="https://science.nasa.gov/_ipx/animated_true&w_4096&f_jpeg/https://images-assets.nasa.gov/image/PIA01492/PIA01492~large.jpg%3Fw=1920%26h=1917%26fit=clip%26crop=faces%252Cfocalpoint" alt="Neptune">
+        <h2>Neptune</h2>
+        <p>Type: Ice Gaint</p>
+        <p>Distance from Sun: 30.05 AU</p>
+        <p>Orbit Days: 60190</p>
+    </div>
+        <div class="planet">
+        <img src="https://cdn.mos.cms.futurecdn.net/7jxwc8dNejsvowwWTGfG2P-1200-80.jpg" alt="Earth's Moon">
+        <h2>Earth 's MOON</h2>
+        <p>Type: Rocky</p>
+        <p>Distance from Earth: 0.00257 AU</p>
+        <p>Revolves around Earth</p>
+        <p>Orbit Days: 30687</p>
+    </div>
+</body>
+</html>
